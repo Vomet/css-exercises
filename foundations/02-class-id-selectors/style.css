@@ -1,0 +1,24 @@
+.odd {
+    /* I make the font text white so that it would be easier to see the result.
+    This was not explicitly stated in the instructions! */
+    color: #e9e8ed;
+    font-family: Verdana, Dejavu Sans, sans-serif;
+    background-color: rgb(252, 65, 87);
+}
+
+#second {
+    color: hsl(248, 100%, 50%);
+    font-size: 36px;
+}
+
+.odd#third {
+    /* The instructions tell me to use two classes, but I chose to do one class and one ID instead.
+    IDs only work on one element anyways. */
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
